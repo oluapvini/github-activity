@@ -5,4 +5,4 @@ const username = readCommand(args);
 
 if (!username) process.exit(1);
 
-console.log("Username: ", username);
+console.log("Username:", username);
