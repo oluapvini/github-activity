@@ -1,4 +1,4 @@
-export function formatEvenet(event) {
+export function formatEvent(event) {
   const repo = event.repo?.name ?? "unknown repo";
 
   if (event.type === "PushEvent") {
